@@ -33,6 +33,7 @@
             this.ribbonSeparator1 = new System.Windows.Forms.RibbonSeparator();
             this.rbtntrangchu = new System.Windows.Forms.RibbonOrbMenuItem();
             this.rtbthoat = new System.Windows.Forms.RibbonOrbMenuItem();
+            this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.tabNhanSu = new System.Windows.Forms.RibbonTab();
             this.ribbonPanel1 = new System.Windows.Forms.RibbonPanel();
             this.btnDanhSachNV = new System.Windows.Forms.RibbonButton();
@@ -60,7 +61,6 @@
             this.ribbonTextBox1 = new System.Windows.Forms.RibbonTextBox();
             this.object_05cbbec2_f02d_4e76_add1_4caed7ab728c = new System.Windows.Forms.RibbonOrbRecentItem();
             this.object_cec3f204_0b42_435a_bd87_acd24ef1259f = new System.Windows.Forms.RibbonOrbRecentItem();
-            this.ribbonOrbRecentItem1 = new System.Windows.Forms.RibbonOrbRecentItem();
             this.SuspendLayout();
             // 
             // ribbon1
@@ -113,6 +113,14 @@
             this.rtbthoat.SmallImage = ((System.Drawing.Image)(resources.GetObject("rtbthoat.SmallImage")));
             this.rtbthoat.Text = "Thoát";
             this.rtbthoat.Click += new System.EventHandler(this.rbtnthoat_Click);
+            // 
+            // ribbonOrbRecentItem1
+            // 
+            this.ribbonOrbRecentItem1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.Image")));
+            this.ribbonOrbRecentItem1.LargeImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.LargeImage")));
+            this.ribbonOrbRecentItem1.Name = "ribbonOrbRecentItem1";
+            this.ribbonOrbRecentItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.SmallImage")));
+            this.ribbonOrbRecentItem1.Text = "ribbonOrbRecentItem1";
             // 
             // tabNhanSu
             // 
@@ -321,14 +329,6 @@
             this.object_cec3f204_0b42_435a_bd87_acd24ef1259f.SmallImage = ((System.Drawing.Image)(resources.GetObject("object_cec3f204_0b42_435a_bd87_acd24ef1259f.SmallImage")));
             this.object_cec3f204_0b42_435a_bd87_acd24ef1259f.Text = "Thoát";
             // 
-            // ribbonOrbRecentItem1
-            // 
-            this.ribbonOrbRecentItem1.Image = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.Image")));
-            this.ribbonOrbRecentItem1.LargeImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.LargeImage")));
-            this.ribbonOrbRecentItem1.Name = "ribbonOrbRecentItem1";
-            this.ribbonOrbRecentItem1.SmallImage = ((System.Drawing.Image)(resources.GetObject("ribbonOrbRecentItem1.SmallImage")));
-            this.ribbonOrbRecentItem1.Text = "ribbonOrbRecentItem1";
-            // 
             // trangchu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -342,6 +342,7 @@
             this.Name = "trangchu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Hệ Thống Quản Lý Nhân Sự";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.trangchu_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
